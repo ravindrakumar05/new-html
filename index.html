@@ -3,71 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Forms</title>
 </head>
 <body>
-    <div class="container">
-        <nav class="flex-box">
-            <h2>My Logo</h2>
-            <ul class="flex-box">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Sign Up</a></li>
-            </ul>
-        </nav>
-        <div class="main-content">
-            <h1>Design Your Website</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta accusamus adipisci error cumque tenetur voluptas corporis ipsa corrupti quae aspernatur!</p>
-            <button>Subscribe</button>
-            <button class="btn">More</button>
-        </div>
-    </div>
-    <div class="footer flex-box">
-        <div class="footer-link1">
-        <h2>Quick Links</h2>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Help</a></li>
-            <li><a href="#">Complain</a></li>
-        </ul>
-        </div>
-        <div class="footer-link1">
-        <h2>More Links</h2>
-        <ul>
-            <li><a href="#">Refferences</a></li>
-            <li><a href="#">More</a></li>
-            <li><a href="#">Orders</a></li>
-            <li><a href="#">Affiliate</a></li>
-            <li><a href="#">Reffer</a></li>
-        </ul>
-        </div>
-        <div class="footer-link1">
-        <h2>Locations</h2>
-        <ul>
-            <li><a href="#">Andhra Pradesh</a></li>
-            <li><a href="#">Telangana</a></li>
-            <li><a href="#">Maharastra</a></li>
-            <li><a href="#">Manipur</a></li>
-            <li><a href="#">Bengal</a></li>
-        </ul>
-        </div>
-        <div class="footer-link1">
-        <h2>Contact Info</h2>
-        <ul>
-            <li><a href="#">+91 9063948764</a></li>
-            <li><a href="#">palleravindrakumar@gmail.com</a></li>
-            <li><a href="#">Linkedin</a></li>
-            <li><a href="#">instagram</a></li>
-            <li><a href="#">Banaganapalle</a></li>
-        </ul>
-        </div>
-    </div>
+    <form action="response.html"  target="_blank">
+        <input type="text" name="user name" id="name" placeholder="user name" value="Ravindra" readonly><br><br>
+        <input type="password" name="" id="" placeholder="password"><br><br>
+        <input type="email" placeholder="Email"><br><br>
+        <input type="tel" placeholder="any number"><br><br>
+        <input type="number" placeholder="only numbers" step="10.5"><br><br>
+        <input type="submit">
 
-    <h2>Created By Ravindra Kumar Palle</h2>
-    
+        <input type="button" value="Ahoy!">
+        <input type="reset" value="reset">
+        <input type="color" name="" id="">
+        <input type="hidden" name=""><br><br>
+        <input type="radio" name="gender" id="">Male
+        <input type="radio" name="gender" id="">Female
+        <br><br>
+        <input type="checkbox" name="hobbies" id="">playing
+        <input type="checkbox" name="hobbies" id="">Reading
+        <input type="checkbox" name="hobbies" id="">Gym <br><br>
+        <input type="range" name="" id="" value="100">
+        <br><br>
+        <input type="date" name="" id="">
+        <input type="time" name="" id="">
+        <input type="month" name="" id="">
+        <input type="datetime" name="" id="">
+        <input type="datetime-local" name="" id=""><br><br>
+        <input type="file" name="" id="">
+        <input type="search" name="" id="" placeholder="Search now"> 
+        <br><br>
+        <input type="url" name="" id="">
+        <br><br>
+
+        <textarea id="" cols="30"   rows="3"></textarea>
+        <br><br>
+
+        <select name="" id="" size="1" multiple>
+             <option value="English">English</option>
+             <option  value="English">Telugu</option>
+             <option value="English">Hindi</option>
+             <option value="English">Urdu</option>
+        </select>
+
+
+        <fieldset>
+        <legend>Contact Form</legend>
+        <input type="text" name="" id="">
+        <br><br>
+        <input type="password" name="" id="">
+        <br><br>
+        <input type="button" value="">
+        </fieldset>
+        
+        
+    </form>
 </body>
 </html>
